@@ -17,6 +17,6 @@ cd results
 
 for plt in /usr/bin/*.plt; do
     echo "Executing $plt..."
-    gnuplot "$plt" 2>> ../error.out || echo "Error in $plt" >> ../error.out
+    gnuplot "$plt" 2>> ../error.out || echo "Error in $plt"
 done
 
